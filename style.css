@@ -1,0 +1,115 @@
+/* CSS Start */
+*{
+	margin:0;
+	padding:0;
+	
+}
+
+/* Body */
+body{
+
+background:url(backgd.png);
+font-family:Arial, Helvetica, Sans-Serif;
+font-size:12px;
+color:#000;
+}
+
+/* Header */
+#container{
+	width:900px;
+	margin:0 auto;
+	background-color:#FFF;
+	
+}
+
+#header{
+	width:900px;
+	height:316px;
+	background-color:#DDDDDD;
+	
+	
+}
+
+#header .headerBg{
+	width:900px;
+	height:270px;
+	background:url(header.png) no-repeat left top;
+}
+
+#header h1{
+	padding:200px 40px 0 0;
+	text-align:right;
+	color:#FFF;
+}
+
+/* Menu */
+#menu{
+	width:900px;
+	text-transform:uppercase;
+	list-style:none;
+	float:left;
+}
+
+#menu li{
+	display:inline;
+	float:left;
+}
+
+#menu li a{
+	text-decoration:none;
+	color:#626161;
+	font-size:18px;
+	padding:12px 30px;
+	border-right:1px solid #FFF;
+	float:left;
+}
+
+#menu li a:hover{
+	background-color:#C43333;
+	color:#FFF;
+}
+
+#menu li #current{
+	background-color:#C43333;
+	color:#FFF;
+}
+
+/* Content */
+#mainContent h1{
+	color:#C43333;
+}
+
+#mainContent a{
+	color:#C43333;
+}
+
+#mainContent{
+	width:540px;
+	padding:20px;
+	margin:15px;
+	background-color:#fff;
+	border:1px dashed #B9B9B9;
+}
+
+#mainContent p{
+	padding-top:20px;
+}
+
+/* Footer */
+#footer { 
+	width:900px;
+	height:90px;
+	clear:both;
+	background:url(footer.png) repeat-x left top;
+}
+
+#footer p {
+	padding-top:28px;
+	text-align:center;
+	color:#EBE431;
+} 
+
+.footerLink  {
+	color:#31EB37;
+	text-decoration:none;
+}
